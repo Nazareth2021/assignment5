@@ -100,6 +100,15 @@ a:hover {
     color: dimgrey;
 }
 
+a{
+    
+    transition: background-color .2s, color .2s;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.0em;
+}
+
+
 header nav ul {
     display: flex;
    justify-content: flex-end;
