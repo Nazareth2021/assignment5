@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    color: black;
+}
+
+.mercedesheader {
+
+
+    text-align: center;
+
+}
+
+
+
+.referencepages {
+
+    text-align: right;
+
+}
+
+body {
+    /*    background-color: pink;*/
+    background-image: linear-gradient(rgba(255, 192, 203, .5), rgba(255, 255, 255, .1)), url("http://carflippin.com/wp-content/uploads/2016/08/CAR-BACKGROUND1.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+
+.thanks {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+    font-size: 1.3em;
+    color:black;
+    text-decoration: underline;
+    
+}
+
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main img {
+    align-self: center;
+    display: inline-block;
+    width: 50%;
+}
+
+#new {
+
+    background-color: aliceblue;
+    opacity: .8;
+    color: black;
+    background-image: linear-gradient(#ef3253, white)
+}
+
+#twoinone a {
+
+    color: deeppink;
+}
+
+#bullets ul {
+    color: black;
+    background-color: azure;
+}
+
+
+
+#menu {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+
+    flex: 1;
+
+
+}
+
+a:hover {
+    color: dimgrey;
+}
+
+header nav ul {
+    display: flex;
+   justify-content: flex-end;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 1em;
+}
+
+@media screen and (max-width: 40rem) {
+
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
+}
+
+
+h2 {
+    border: 4px solid #276db4;
+    border-radius: 15px;
+    box-shadow: 5px 5px blue;
+    background-image: linear-gradient(rgb(255, 192, 203), rgb(255, 255, 255));
+
+}
+form p{
+    display: flex;
+    margin-bottom: 2em;
+}
+form label{
+    flex-basis:25%
+}
+
+.cars {
+    color: white;
+    background-color: black;
+}
+
+.subscribe{
+    color: white;
+    background-color: black;
+}
+
+.choices{
+    color: white;
+    background-color: black;
+}
